@@ -26,16 +26,29 @@
 		border-left: 2px solid black;
 		background: seashell;
 	}
-	@media (min-width:1200px){
+    @media (max-width:1090px){
+		div{
+		width:33%;
+	    }
+		
+	}	@media (min-width:992px){
 		div{
 		width:33%;
 	    }
 		
 	}
-	@media  (min-width : 991px) and (max-width: 1200px){
-		div{
-		width:50%;
+	@media  (min-width : 768px) and (max-width: 991px){
+		.col_sd_12{
+		width:45%;
 	    }
+	    .col{
+	    	width:100%;
+	    }
+	}
+	@media (max-width:767px){
+		div{
+			width:100%;
+		}
 	}
 	
 </style>
@@ -46,7 +59,7 @@
 	<div class="col_sd_12"><h2>Chicken</h2>TLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
     </div>
 	<div class="col_sd_12"><h2>Sushi</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</div>
-	<div class="col_sd_12"><h2> Beef</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
+	<div class="col"><h2> Beef</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
     </div>
     </section>
 </body>
